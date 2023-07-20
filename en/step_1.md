@@ -11,7 +11,7 @@ So, ready to get your superhero (or villain) game on? Let's unmask this project 
 ### You will
 
 Using the Machine Learning for Kids platform, a pinch of Scratch, and a whole lot of literary quotes, you will:
-  + build a machine learning model on Machine Learning for Kids
+  + Build a machine learning model on Machine Learning for Kids
   + Collect text data from famous literary heroes and villains
   + Train your machine learning model on your collected quotes
-  + build a text classifier that can tell heroes and villains apart by what they say. 
+  + Build a text classifier that can tell heroes and villains apart by what they say. 
