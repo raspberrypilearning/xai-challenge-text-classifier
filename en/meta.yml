@@ -1,0 +1,13 @@
+title: Hero or Zero?
+hero_image: images/banner.png
+description: default-project-template description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - title: Introduction
+  - title: Create a Machine Learning model
+  - title: Train the model
+  - title: Make a Scratch Application
+  - title: What next?
