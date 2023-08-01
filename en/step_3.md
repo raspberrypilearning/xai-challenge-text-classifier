@@ -1,4 +1,6 @@
 
+##Train the model
+
 Imagine having a treasure chest full of fun quotes from your favorite movie characters, both the good guys (heroes) and the not-so-good guys (villains), with the quotes in two big piles - one for the heroes and one for the villains. In the world of machine learning, these piles are called "classes". The `hero` class is filled with all the cool things the heroes say, and the `villain` class has all the catchy phrases from the villains. On the back of each quote is a `label` that says whether the quote is a `hero` or a `villain` quote. 
 
 So let's say we find a *new* quote; one we've never seen before, which has no label. A machine learning model takes a peek at this new quote and checks if it matches the patterns it learned from either the hero pile or the villain pile. It's not guessing or understanding, it's just spotting patterns. The model then predicts whether the new quote is from a `hero` or a `villain`, with an amount of certainty.
