@@ -75,8 +75,10 @@ In the window which pops up, create a label for the `hero` class.
 **Repeat** this step to create a second label for the `villain` class.
 
 --- /task ---
+
 You shouls now be looking at an two empty boxes, one title 'hero' and one titled 'villain:
 ![](images/text_model.png)
+
 --- task ---
 
 Look in your favourite books, or search online for quotes from famous heroes. In your `hero` class, click `Add Example` and paste or type in the quotes one at a time. 
