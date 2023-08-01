@@ -113,41 +113,27 @@ Your model is now ready to be trained.
 --- task ---
 
 Select **Train new machine learning model**.
+
 ![](images/train_new.png)
+
+You will have to wait a moment for the model to train.
 
 --- /task ---
 
 ### Testing your model
 
 Now that you have trained your model, it is time to test it to see how successful it is.  
-Some data has been kept aside to use as test data. You can find the images at the bottom of the [webpage hosting the data set](https://ai-activities.raspberrypi.org/project-files/){:target="_blank"}.
-
-To see how successful your model is at classifying the test data, test your model with some of the images:
 
 --- task ---
 
-Drag and drop an image into the link box (next to the Test with www button):
-
-![](images/test_with_www.png)
-
---- collapse ---
----
-title: Adding a test image without drag and drop
----
-
-Alternatively, you can:
-
-+ Right-click on an image
-+ Select Copy image address
-+ Paste the image address into the link box
-
---- /collapse ---
+To see how successful your model is at classifying heroes and villains, test your model by typing in a quote.
+![](images/test_text.png)
 
 --- /task ---
 
 --- task ---
 
-Click the **Test with www** button to test your model.
+Click the **Test** button to test your model.
 
 --- /task ---
 
