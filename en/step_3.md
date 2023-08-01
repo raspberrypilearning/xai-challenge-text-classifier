@@ -8,7 +8,7 @@ So let's say we find a *new* quote; one we've never seen before, which has no la
 --- task ---
 
 Select **Add new label**. 
-![an image showing the button which reads Add new Project](images/add_new_label.png)
+![an image showing the button which reads Add new label](images/add_new_label.png)
 --- /task ---
 
 --- task ---
