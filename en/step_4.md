@@ -6,7 +6,7 @@
 Your model is trained and ready to test, but to do that you need to create a scratch project that can allow your user to input text and classify the input as heroic or villainous.
 </div>
 <div>
-![Image showing four screenshots of different Scratch classification applications](images/demo_shot_four.png){:width="300px"}
+![Image showing four screenshots of different Scratch classification applications](images/demo_shot.png){:width="300px"}
 </div>
 </div>
 
