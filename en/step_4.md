@@ -142,7 +142,7 @@ Add one last round `join (apple) (banana)`{:class="block3operators"} block into 
 ```blocks3
 when green flag clicked
 ask [You there! What say you?] and wait
-say (join (join [apple] [banana])) ((join [apple] [banana]))
+say (join ((join [apple] [banana])) ((join [apple] [banana])))
 ```
 
 --- /task ---
