@@ -41,31 +41,12 @@ The new grey blocks you can see in that menu allow you to access your machine le
 </div>
 </div>
 
-### Add the text extension
---- task ---
-
-Select the blue Extensions button at the bottom left of your screen.
-![Image of a blue square button with a stylised image of scratch blocks and a plus sign](images/extennsions_button.png)
-
---- /task ---
-
---- task ---
-
-Scroll down the page and select the `Spotify`{:class="block3flag"} extension.
-
-You will see it add several new green blocks, allowing you access to Spotify’s music and database.
-![IMage showing the spotify extension tile in the scratch extensions menu. It reads 'get data about songs from spotify'.](images/spotify_extension.png)
-
---- /task ---
-
-You’re now all set up and ready to code the app that will classify songs from the online music database in the next step!
-
 --- collapse ---
 ---
 title: Pro tip - Save your work!
 ---
 
-This special version of Scratch allows you to access your machine learning model, as well as use the music database blocks - **if you try to open your project in another version of Scratch online it probably won’t work**. 
+This special version of Scratch allows you to access your machine learning model, as well as use the music database blocks - **if you try to open your project in another version of Scratch online it won’t work**. 
 
 A hack you can use is to save your work to your computer often. Once you have the .sb3 file for your project saved you can open it again later, or on another computer:
 + Go to [rpf.io/mlscratch](rpf.io/mlscratch){:target="_blank"} to get to this special fork of Scratch 
@@ -74,7 +55,69 @@ A hack you can use is to save your work to your computer often. Once you have th
 
 ![Image showing the Scratch file menu with the Load from your computer option highlighted](images/load_menu.png)
 
+
 Save your work as often as you can to make sure you don’t lose any progress!
 
 --- /collapse ---
 
+--- task ---
+
+Add a `when green flag clicked`{:class="block3events"} block to your workspace. This is the script that will run the first time we start the project. 
+
+```blocks3
+when green flag clicked
+```
+
+--- /task ---
+
+The next thing we want our application to do is ask the user to input some text - this is the text that will be compared by the model and classfied as `hero` or `villain`.
+
+--- task ---
+
+In the blue `Sensing`{:class="block3sensing"} menu, add an `ask (What's your name?) and wait`{:class="block3sensing"} block:
+
+```blocks3
+when green flag clicked
+ask [What's your name?] and wait
+```
+
+--- /task ---
+
+--- task ---
+
+Change the question text to something you like. Ask your user to enter a quote. You could say something like:
++ What is your quote?
++ Halt! Who goes there?
++ Enter your favourite quote to start!
++ Type something to see if you are a hero or a villain!
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+```
+
+--- /task ---
+
+--- task ---
+
+From the purple `Looks`{:class="block3looks"} menu, add a `say (Hello!)`{:class="block3looks"} block to your script.
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say (Hello!)
+```
+
+--- /task ---
+
+
+--- task ---
+
+From the green `Operators`{:class="block3operators"} menu, place a round `join (apple) (banana)`{:class="block3operators"} block into the hole in the purple `say`{:class="block3looks"} block:
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say ((join (apple) (banana)))
+```
+
+--- /task ---
