@@ -20,13 +20,15 @@ In the window which pops up, create a label for the `hero` class.
 
 --- /task ---
 
-You shouls now be looking at an two empty boxes, one title 'hero' and one titled 'villain:
+You should now be looking at an two empty boxes, one title 'hero' and one titled 'villain':
 ![](images/text_model.png)
 
 --- task ---
 
 Look in your favourite books, or search online for quotes from famous heroes. In your `hero` class, click `Add Example` and paste or type in the quotes one at a time. 
-![Button which reads '+ add example'](images/add_example.png) 
+![Button which reads '+ add example'](images/add_example.png)
+
+To make it a bit easier, we have also provided a [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing) with tabs for `hero`, `villain` and another tab called `TESTING DATA` with a list of training quotes kept separate - **do not use the TESTING DATA in this step, you will need it later!**
 
 --- /task ---
 
@@ -72,20 +74,24 @@ Now that you have trained your model, it is time to test it to see how successfu
 
 --- task ---
 
-To see how successful your model is at classifying heroes and villains, test your model by typing in a quote.
+To see how successful your model is at classifying heroes and villains, test your model by typing a quote into the field that appears.
+
+**IMPORTANT:** Make sure you don't use a quote that already exists in your training data! If you are using the quotes from the [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing), make sure to use quotes from the TRAINING DATA tab! 
+
+--- /task ---
+
+--- task ---
+
+Click the **Test** button to test your model. Your model will predict whether the text you entered is heroic or villainous and will tell you the level of confidence the model has in that prediction.
+
 ![](images/test_text.png)
+In this example, the model is only 19% certain the quote from the Wizard of Oz is spoken by a hero. (It is - Dorothy says it!) 19% is not a very good confidence score; most commercial classification applications need to operate around 95-99% confidence!
 
 --- /task ---
 
 --- task ---
 
-Click the **Test** button to test your model.
-
---- /task ---
-
---- task ---
-
-Once you have tested a few of the images, answer the following questions in your **blueprint**:
+Once you have tested a few different quotes, think about these important things:
 
 1. Describe the results of your testing. How accurate was the model? 
 2. Why do you think the prediction is sometimes  wrong?
@@ -95,11 +101,11 @@ Once you have tested a few of the images, answer the following questions in your
 
 ### Bias and data
 
-When we teach a computer to recognize different things, like apples and tomatoes, we need to give it lots of examples to learn from. These examples are called **training data**.
+When we teach a computer to recognize different things, like quotes from heroes or villains, we need to give it lots of examples to learn from. These examples are called **training data**.
 
-If we use a training dataset that contains mostly red tomatoes and green apples, this does not accurately represent the real world as there are also red apples and even green tomatoes. If the data used to train the model is not representative of what you're trying to model, neither will the prediction be which your model makes.
+If, in making our model, we use a training dataset that contains mostly long hero quotes and short villain quotes, this does not accurately represent the real world as there are also short hero quotes and long villain quotes. If the data used to train the model is not representative of what you're trying to model, neither will the prediction be which your model makes.
 
-This is called **bias**, which means the computer is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different types and colours of apples and tomatoes. By doing this, we can help the computer learn to recognize the features that distinguish each type of fruit, rather than just relying on the colour of the training examples.
+This is called **bias**, which means the computer is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different lengths and styles of things different characters say. By doing this, we can help the computer learn to recognize the features that distinguish each type of quote, rather than just relying on the length of the training examples.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 By using more diverse and representative training data, we can help ensure that the computer makes accurate and fair predictions when it encounters new examples. This can make the computer more useful and reliable for different applications, from identifying objects in photos to making decisions in healthcare or finance.
