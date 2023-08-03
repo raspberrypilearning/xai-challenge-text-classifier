@@ -114,10 +114,35 @@ say (Hello!)
 --- task ---
 
 From the green `Operators`{:class="block3operators"} menu, place a round `join (apple) (banana)`{:class="block3operators"} block into the hole in the purple `say`{:class="block3looks"} block:
+
 ```blocks3
 when green flag clicked
 ask [You there! What say you?] and wait
-say ((join (apple) (banana)))
+say ((join [apple] [banana]))
+```
+
+--- /task ---
+
+--- task ---
+
+Add another round `join (apple) (banana)`{:class="block3operators"} block into the hole in the one you just added (it doesn't matter which hole):
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say ((join ((join [apple] [banana])) [banana]))
+```
+
+--- /task ---
+
+--- task ---
+
+Add another round `join (apple) (banana)`{:class="block3operators"} block into the hole in the one you just added (it doesn't matter which hole):
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say ((join ((join [apple] [banana])) ((join [apple] [banana]))))
 ```
 
 --- /task ---
