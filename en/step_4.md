@@ -14,7 +14,7 @@ Your model is trained and ready to test, but to do that you need to create a scr
 ### **Your project will:**
 + Take text input from the user
 + Use your trained ML model to classify text
-+ Tell the user whether the input is 'good' or 'evil'
++ Tell the user whether the input is from a 'hero' or 'villain'
 
 --- task ---
 
