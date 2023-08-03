@@ -105,7 +105,7 @@ From the purple `Looks`{:class="block3looks"} menu, add a `say (Hello!)`{:class=
 ```blocks3
 when green flag clicked
 ask [You there! What say you?] and wait
-say (Hello!)
+say [Hello!]
 ```
 
 --- /task ---
@@ -130,19 +130,19 @@ Add another round `join (apple) (banana)`{:class="block3operators"} block into t
 ```blocks3
 when green flag clicked
 ask [You there! What say you?] and wait
-say ((join ((join [apple] [banana])) [banana]))
+say (join ((join [apple] [banana])) [banana])
 ```
 
 --- /task ---
 
 --- task ---
 
-Add another round `join (apple) (banana)`{:class="block3operators"} block into the hole in the one you just added (it doesn't matter which hole):
+Add one last round `join (apple) (banana)`{:class="block3operators"} block into the hole in the one you just added (it doesn't matter which hole):
 
 ```blocks3
 when green flag clicked
 ask [You there! What say you?] and wait
-say ((join ((join [apple] [banana])) ((join [apple] [banana]))))
+say (join (join [apple] [banana])) ((join [apple] [banana]))
 ```
 
 --- /task ---
