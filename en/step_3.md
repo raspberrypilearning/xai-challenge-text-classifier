@@ -28,7 +28,7 @@ You should now be looking at an two empty boxes, one title 'hero' and one titled
 Look in your favourite books, or search online for quotes from famous heroes. In your `hero` class, click `Add Example` and paste or type in the quotes one at a time. 
 ![Button which reads '+ add example'](images/add_example.png)
 
-To make it a bit easier, we have also provided a [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing) with tabs for `hero`, `villain` and another tab called `TESTING DATA` with a list of training quotes kept separate - **do not use the TESTING DATA in this step, you will need it later!**
+To make it a bit easier, we have also provided a [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing){:target="_blank"} with tabs for `hero`, `villain` and another tab called `TESTING DATA` with a list of training quotes kept separate - **do not use the TESTING DATA in this step, you will need it later!**
 
 --- /task ---
 
@@ -76,7 +76,7 @@ Now that you have trained your model, it is time to test it to see how successfu
 
 To see how successful your model is at classifying heroes and villains, test your model by typing a quote into the field that appears.
 
-**IMPORTANT:** Make sure you don't use a quote that already exists in your training data! If you are using the quotes from the [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing), make sure to use quotes from the TRAINING DATA tab! 
+**IMPORTANT:** Make sure you don't use a quote that already exists in your training data! If you are using the quotes from the [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing){:target="_blank"}, make sure to use quotes from the TRAINING DATA tab! 
 
 --- /task ---
 
