@@ -151,7 +151,7 @@ say (join (join [apple] [banana]) ((join [apple] [banana])))
 
 --- task ---
 
-Into the first hole that says `apple` type `I am ` 
+Into the first hole that says `apple`, type `I am ` 
 Make sure you include a space at the end!
 
 ```blocks3
@@ -163,7 +163,7 @@ say (join (join [I am ] [banana]) (join [apple] [banana]))
 
 --- task ---
 
-Into the second hole that says `banana` drag a black `recognise text [text] (confidence)` block from the Machine learning for kids menu at the very bottom:
+Into the second hole, that says `banana`, drag a black `recognise text [text] (confidence)` block from the Machine learning for kids menu at the very bottom:
 
 ```blocks3
 when green flag clicked
@@ -174,7 +174,7 @@ say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [ap
 
 --- task ---
 
-Into the next (third) hole, that still says `apple` type `% sure you are a  ` 
+Into the next (third) hole, that still says `apple`, type `% sure you are a  ` 
 Make sure you include a space at the end!
 
 ```blocks3
@@ -186,11 +186,33 @@ say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [% 
 
 --- task ---
 
-Into the last (fourth) hole that still says `banana` drag a black `recognise text [text] (label)` block from the Machine learning for kids menu at the very bottom:
+Into the last (fourth) hole, that still says `banana`, drag a black `recognise text [text] (label)` block from the Machine learning for kids menu at the very bottom:
 
 ```blocks3
 when green flag clicked
 ask [You there! What say you?] and wait
 say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [% sure you are a  ] (recognise text [text] label :: #4b4c60)))
 ```
+
+--- /task ---
+
+The final piece of the puzzle is to now use the text your user entered as the information sent back to the model for classification!
+
+--- task ---
+
+From the light blue `Sensing`{:class="block3sensing"} menu, drop a round `answer`{:class="block3sensing"} bubble into the two white slots which say `text`:
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say (join (join [I am ] (recognise text (answer) confidence :: #4b4c60)) (join [% sure you are a  ] (recognise text (answer) label :: #4b4c60)))
+```
+
+--- /task ---
+
+--- task ---
+
+**Click the green flag**, then type or paste some text into the prompt that appears and press **Enter**. 
+Your character will say whether the speaker of those words is a hero or a villain and to what certainty!
+
 --- /task ---
