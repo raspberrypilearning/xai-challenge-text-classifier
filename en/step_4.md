@@ -110,6 +110,9 @@ say [Hello!]
 
 --- /task ---
 
+Now, we're going to create the message your application will show the user when it has classified the text they entered. To do that, we're going to `join`{:class="block3operators"} some bits of text (called strings) with data from your machine learning model using specific blocks. 
+
+The example message will say: "I am `(model confidence: number)`% certain you are a `(model label: hero/villain)`!
 
 --- task ---
 
@@ -144,5 +147,50 @@ when green flag clicked
 ask [You there! What say you?] and wait
 say (join (join [apple] [banana]) ((join [apple] [banana])))
 ```
+--- /task ---
 
+--- task ---
+
+Into the first hole that says `apple` type `I am ` 
+Make sure you include a space at the end!
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say (join (join [I am ] [banana]) (join [apple] [banana]))
+```
+--- /task ---
+
+--- task ---
+
+Into the second hole that says `banana` drag a black `recognise text [text] (confidence)` block from the Machine learning for kids menu at the very bottom:
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [apple] [banana]))
+```
+--- /task ---
+
+--- task ---
+
+Into the next (third) hole, that still says `apple` type `% sure you are a  ` 
+Make sure you include a space at the end!
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [% sure you are a  ] [banana]))
+```
+--- /task ---
+
+--- task ---
+
+Into the last (fourth) hole that still says `banana` drag a black `recognise text [text] (label)` block from the Machine learning for kids menu at the very bottom:
+
+```blocks3
+when green flag clicked
+ask [You there! What say you?] and wait
+say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [% sure you are a  ] (recognise text [text] (label))))
+```
 --- /task ---
