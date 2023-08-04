@@ -6,6 +6,12 @@ You could:
 + Add a new costume to the sprite to replace the Scratch cat:
 [[[scratch3-add-costumes-to-a-sprite]]] 
 
++ Add a new backdrop to your project:
+[[[generic-scratch3-backdrop-from-library]]]
+
++ Add sounds to your project:
+[[[generic-scratch3-sound-from-library]]]
+
 + Make your application do something depending on whether the model says 'hero or villain':
 
 --- collapse ---
@@ -19,11 +25,11 @@ Use an `if/else`{:class="block3control"} block with an equals operator to check 
 
 --- /collapse ---
 
-+ Make your application do something based on how confident it is:
++ Make your application do something based on how confident it is about its prediction:
 
 --- collapse ---
 ---
-title: Making changes based on the confidence
+title: Making changes based on the confidence of the model
 ---
 
 Use the `recognise text (answer) confidence` block with size and volume controls, or have something happen if the confidence is above or below a certain level:
