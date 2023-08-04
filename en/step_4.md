@@ -212,7 +212,11 @@ say (join (join [I am ] (recognise text (answer) confidence :: #4b4c60)) (join [
 
 --- task ---
 
-**Click the green flag**, then type or paste some text into the prompt that appears and press **Enter**. 
+**Click the green flag**, then type or paste some text into the prompt that appears and press **Enter**.
+
 Your character will say whether the speaker of those words is a hero or a villain and to what certainty!
 
 --- /task ---
+
+In the next step, you can customise the way your application looks by adding costumes and add some new features that activate depending on the classification of your input.
+
