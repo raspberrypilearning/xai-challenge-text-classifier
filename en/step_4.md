@@ -191,6 +191,6 @@ Into the last (fourth) hole that still says `banana` drag a black `recognise tex
 ```blocks3
 when green flag clicked
 ask [You there! What say you?] and wait
-say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [% sure you are a  ] (recognise text [text] (label))))
+say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [% sure you are a  ] (recognise text [text] label :: #4b4c60)))
 ```
 --- /task ---
