@@ -32,6 +32,6 @@ Use the `recognise text (answer) confidence` block with size and volume controls
 
 --- /collapse ---
 
-This was just the warm up! Now that you know how to build a text classification application that tells heroes from villains, what do **you** want to make? 
+**This was just the warm up!** Now that you know how to build a text classification application that tells heroes from villains, what do **you** want to make? 
 
 In the next stage of the Experience AI challenge, you'll get to use the skills you've learnt in this project to create something totally cool and unique using Scratch and Machine Learning! [Click here](rpf.io/xaichallenge) to take the next exciting step in creating your own Artificial Intelligence app!
