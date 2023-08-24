@@ -72,6 +72,25 @@ You will have to wait a moment for the model to train.
 
 Now that you have trained your model, it is time to test it to see how successful it is.  
 
+--- collapse ---
+---
+title: Training Data vs. Testing Data
+---
+
+To teach a computer program a specific task, we provide it with a particular set of data called **training data**. This set is similar to the exercises in a textbook that have answers; they help in understanding and practicing the topic.
+
+After processing the training data, it's essential to check the program's performance. For this, we introduce it to a new set of data known as **testing data**. Think of this as taking a quiz or test at school: the questions aren't identical to what you practiced, but they cover the same topic.
+
+**Why Keep Them Separate?**
+If we use the same data for both training and testing, it's like giving you a maths test with the exact same questions you practised with. You might get all the answers right, but it doesn't show if you understand the topic broadly. It only shows that you know those specific questions.
+
+Similarly, if we test the computer program with the same data it trained on, we can't be sure if it has learned the task broadly or if it just "remembers" that specific data. By using different data for testing, we can get a better idea of how well the program can handle new, unseen situations.
+
+So, it's essential to keep training and testing data separate to ensure that the computer program can perform the task accurately in various situations, not just the ones it has seen before.
+
+--- /collapse ---
+
+
 --- task ---
 
 To see how successful your model is at classifying heroes and villains, test your model by typing a quote into the field that appears.
