@@ -14,4 +14,4 @@ Using the Machine Learning for Kids platform, a pinch of Scratch, and a whole lo
   + Build a machine learning model on Machine Learning for Kids
   + Collect text data from famous literary heroes and villains
   + Train your machine learning model on your collected quotes
-  + Build a text classifier that can tell heroes and villains apart by what they say. 
+  + Build a text classifier that can predict whether someone is a hero or a villain from what they say.
