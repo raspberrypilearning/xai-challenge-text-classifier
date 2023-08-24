@@ -125,16 +125,16 @@ title: Bias and data
 
 When we build a model to recognize different things, like quotes from heroes or villains, we need to give it lots of examples to learn from. These examples are called **training data**.
 
-If, in making our model, we use a training dataset that contains mostly quotes from only fantasy stories, this does not accurately represent the real world as there are many other genres and styles of writing that exist. If the data used to train the model is not representative of what you're trying to model, neither will the prediction be which your model makes.
+If, in making our model, we use training data that contains mainly long quotes by heroes and short quotes by villains, the model is likely to predict that all long quotes belong to heroes and all short quotes belong to villains. This problem is caused by using training data that is not fully representative of reality because there will also be short hero quotes and long villain quotes. If the data used to train the model is not fully representative of what you’re trying to model, the predictions made by your model will not be accurate. 
 
-This is called **bias**, which means the computer is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different lengths and styles of things different characters say. By doing this, we can help the computer learn to recognize the features that distinguish each type of quote, rather than just relying on the length of the training examples.
+This is called **bias**, which means the model is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different lengths and styles of things different characters say. By doing this, we can help the model learn to recognize the features that distinguish each type of quote, rather than just relying on the length of the training examples.
 
 --- /collapse ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 Imagine you were making an app that classified the tone of written messages.
 <br><br>
-Now think of 10 books or articles you could use to gather text samples for your training data. What bias might you introduce? Have you picked texts from a variety of genres? Would your app work with messages written by people from all over the world with different cultural backgrounds and languages?
+Now think of 10 books or articles you could use to gather text samples for your training data. What bias might you introduce? Have you picked texts from a variety of genres? Would your app work with messages written by people from all over the world with different cultural backgrounds and languages? Have you got quotes from characters of all genders?
 <br><br>
 By using more diverse and representative training data to avoid <strong>bias</strong>, we can help ensure that the app classifies text accurately and fairly when it encounters new examples. This can make the app more useful and reliable for different applications, from filtering comments online to helping editors understand the tone of articles.
 </p>

@@ -3,7 +3,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your model is trained and ready to test, but to do that you need to create a scratch project that can allow your user to input text and classify the input as heroic or villainous.
+Your model is trained, tested and ready to use, but to do that you need to create a scratch project that can allow your user to input text and classify the input as heroic or villainous.
 </div>
 <div>
 ![Image showing four screenshots of different Scratch classification applications](images/demo_shot.png){:width="300px"}
