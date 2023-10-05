@@ -7,6 +7,10 @@ So, ready to get your superhero (or villain) game on? Let's unmask this project 
 
 ![screencap of finished hero and villain scratch project](images/banner.png)
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+<strong>Text projects need to be retrained after 24 hours:</strong> If you are working on a text-based model, you will need to click the button to Train your model if you have left it overnight. Your training data will be kept online, but the model will time out after 24 hours. The model will need to be retrained at the start of each session.  
+</p>
+
 
 ### You will
 

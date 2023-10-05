@@ -220,3 +220,8 @@ Your character will say whether the speaker of those words is a hero or a villai
 
 In the next step, you can customise the way your application looks by adding costumes and add some new features that activate depending on the classification of your input.
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+<strong>Text projects need to be retrained after 24 hours:</strong> If you are working on a text-based model, you will need to click the button to Train your model if you have left it overnight. Your training data will be kept online, but the model will time out after 24 hours. The model will need to be retrained at the start of each session.  
+</p>
+
+
