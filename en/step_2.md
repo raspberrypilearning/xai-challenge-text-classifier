@@ -10,25 +10,25 @@ Open the website [Machine Learning for Kids](https://machinelearningforkids.co.u
 
 --- task ---
 
-In the screen that appears, choose **Log In** if your mentor gave you some login details. Enter your username and password on the next screen.
+On the screen that appears, choose **Log In** if your mentor gave you some login details. Enter your username and password on the next screen.
 
-![A picture of the blue log in button](images/singup_login.png)
+![A picture of the blue log in button.](images/singup_login.png)
 
-Choose **Sign Up** if you are creating your own account and follow the prompts to create a new account.
+Choose **Sign Up** if you are creating your own account and then follow the prompts to create a new account.
 
 --- /task ---
 
 --- task ---
 
-Select **Go to your Projects**.
-![Image of the blue go to your projects button on machine learning for kids](images/go2projects.png)
+Select **Go to your projects**.
+![Image of the blue 'go to your projects' button on Machine Learning for Kids.](images/go2projects.png)
 
 --- /task ---
 
 --- task ---
 
 Select **Add a new project**.
-![Image of a grey button which reads 'Go to your projects'](images/add_new_project.png)
+![Image of a grey button that reads 'Add a new project'.](images/add_new_project.png)
 
 --- /task ---
 
@@ -48,20 +48,20 @@ Select **CREATE**. Once created, click on the project title.
 --- /task ---
 
 
-Now that you have created a project that identifies text, you need to set out the different ways your text can be classified - these will be our **classes**.
+Now that you have created a project that identifies text, you need to set out the different ways your text can be classified - these will be your **classes**.
 
 --- collapse ---
 ---
-title: Classes and Labels
+title: Classes and labels
 ---
 
-**Labels** are the specific tags we attach to pieces of text so the model can identify what it's reading, while **classes** are the main categories we want to sort these texts into. For this project, we have two classes: 'hero' and 'villain'.
+**Labels** are the specific tags we attach to pieces of text so that the model can identify it. **Classes** are the main categories that we want to sort these texts into. For this project, we have two classes: 'hero' and 'villain'.
 
 Let's say you're reading a description of a character. If the character does brave and noble things, you might label that description as 'hero'. By doing this, you're telling the model that this text describes a 'hero'. On the other hand, if the character is shown doing sneaky or mean actions, you'd label it 'villain', placing it in the 'villain' class. The model then uses these labels to distinguish between descriptions of heroes and villains.
 
-![An image explaining that a class is a major category images can be sorted into, showing a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture](images/class_vs_label.png)
+![An image explaining that a class is a major category an image can be sorted into. It shows a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture.](images/class_vs_label.png)
 
-The classes you pick should guide the model in its decision-making. In this case, it's simple: every description is either about a 'hero' or a 'villain'. But remember, in other projects, you might have multiple classes based on different attributes of the texts you're analyzing.
+The classes you pick should guide the model in its decision-making. In this case, it's simple: every quote is either from a 'hero' or a 'villain'. But remember, in other projects, you might have multiple classes based on different attributes of the texts you're analysing.
 
 --- /collapse ---
 
