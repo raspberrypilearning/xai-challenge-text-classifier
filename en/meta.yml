@@ -1,13 +1,13 @@
-title: Hero or Zero?
+title: Hero or Villain?
 hero_image: images/banner.png
-description: default-project-template description
+description: Create your own text classifier machine learning model that can ID heros and villians form their words alone!
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
   - title: Introduction
-  - title: Create a Machine Learning model
+  - title: Create a machine learning model
   - title: Train the model
-  - title: Make a Scratch Application
+  - title: Make a Scratch application
   - title: What next?
