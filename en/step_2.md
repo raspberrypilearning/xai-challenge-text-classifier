@@ -55,13 +55,15 @@ Now that you have created a project that identifies text, you need to set out th
 title: Classes and Labels
 ---
 
-**Labels** are the specific tags we attach to pieces of text so the model can identify what it's reading, while **classes** are the main categories we want to sort these texts into. For this project, we have two classes: 'hero' and 'villain'.
+**Classes** are the major categories we're trying to sort those quotes into. In our case, we only have two **classes**: 'hero' and 'villain'.
 
-Let's say you're reading a description of a character. If the character does brave and noble things, you might label that description as 'hero'. By doing this, you're telling the model that this text describes a 'hero'. On the other hand, if the character is shown doing sneaky or mean actions, you'd label it 'villain', placing it in the 'villain' class. The model then uses these labels to distinguish between descriptions of heroes and villains.
+**Labels** are the specific names we give to each picture in the training data to help the model identify what is in each quote.
+
+For instance, if you see a quote from a hero in the training data, you'll label that quote as `hero`. By doing this, you're telling the model that this quote belongs to the `hero` class. Similarly, if you have a quote from a villain, you'll label it `villain`, placing it in the `villain` class. Once you train it on this information, the model can be used to predict which class new quotes belong to.
 
 ![An image explaining that a class is a major category images can be sorted into, showing a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture](images/class_vs_label.png)
 
-The classes you pick should guide the model in its decision-making. In this case, it's simple: every description is either about a 'hero' or a 'villain'. But remember, in other projects, you might have multiple classes based on different attributes of the texts you're analyzing.
+You can use as many classes as you want in your model. In our scenario, it's pretty straightforward: every image is either a `hero` or `villain`. But in other projects, you could have multiple classes based on various characteristics of the data you're working with. (Specific words, a cheerful tone, the language of a piece of writing....)
 
 --- /collapse ---
 
