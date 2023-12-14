@@ -1,7 +1,7 @@
 
 ## Train the model
 
-Imagine having a treasure chest full of fun quotes from your favourite movie characters, both the good guys (heroes) and the not-so-good guys (villains), with the quotes in two big piles - one for the heroes and one for the villains. In the world of machine learning, these piles are called "classes". The `hero` class is filled with all the cool things the heroes say, and the `villain` class has all the catchy phrases from the villains. On the back of each quote is a `label` that says whether the quote is a `hero` or a `villain` quote. 
+Imagine having a treasure chest full of fun quotes from your favourite movie characters, both the good guys (heroes) and the not-so-good guys (villains), with the quotes in two big piles — one for the heroes and one for the villains. In the world of machine learning, these piles are called "classes". The `hero` class is filled with all the cool things the heroes say, and the `villain` class has all the catchy phrases from the villains. On the back of each quote is a `label` that says whether the quote is a `hero` or a `villain` quote. 
 
 Now let's say we find a **new** quote; one we've never seen before, which has no label. A machine learning model analyses this new quote and checks if it matches the pattern detected for the hero pile or the pattern for the villain pile. The model does not guess or understand, it just detects patterns. The model then predicts whether the new quote is from a hero or a villain, together with a measure of certainty.
 
@@ -28,7 +28,7 @@ You should now see two empty boxes, one titled 'hero' and one titled 'villain':
 Look in your favourite books, or search online for quotes from famous heroes. In your `hero` class, click **Add example** and paste or type in the quotes one at a time. 
 ![Button that reads '+ add example'](images/add_example.png)
 
-To make it a bit easier, we have also provided a [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing){:target="_blank"} with loads of quotes for you to use: there's a tabs for `hero` quotes, a tab for `villain` quotes, and another tab for `TESTING DATA`. **Do not use the TESTING DATA in this step, you will need it later!**
+To make it a bit easier, we have also provided a [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing){:target="_blank"} with loads of quotes for you to use: there's a tab for `hero` quotes, a tab for `villain` quotes, and another tab for `TESTING DATA`. **Do not use the TESTING DATA in this step — you will need it later!**
 
 --- /task ---
 
@@ -77,9 +77,9 @@ Now that you have trained your model, it is time to test it to see how successfu
 title: Training data vs. testing data
 ---
 
-To train a machine learning model to classify a specific item, we provide it with a particular set of data called **training data**. This data set is similar to the exercises in a textbook that have answers; they help in understanding and practicing the topic.
+To train a machine learning model to classify a specific item, we provide it with a particular set of data called **training data**. This data set is similar to the exercises in a textbook that have answers; they help in understanding and practising the topic.
 
-After it has processed the training data, it's essential to check the model's performance. For this, we introduce it to a new set of data known as **testing data**. Think of this as taking a quiz or test at school: the questions aren't identical to what you practiced, but they cover the same topic.
+After the model has processed the training data, it's essential to check its performance. For this, we introduce the model to a new set of data known as **testing data**. Think of this as taking a quiz or test at school: the questions aren't identical to what you practised, but they cover the same topic.
 
 **Why keep them separate?**
 If we use the same data for both training and testing, it's like giving you a maths test with the exact same questions you practised with. You might get all the answers right, but it doesn't show if you understand the topic broadly. It only shows that you know those specific questions.
@@ -93,7 +93,7 @@ So, it's essential to keep the training and testing data separate to make sure y
 
 --- task ---
 
-To see how successful your model is at classifying heroes and villains, test your model by typing a quote into the field that appears.
+To see how successful your model is at classifying heroes and villains, test your model by pasting or typing a quote into the field that appears.
 
 **IMPORTANT:** Make sure you don't use a quote that already exists in your training data! If you are using the quotes from the [spreadsheet](https://docs.google.com/spreadsheets/d/1Ge1xmn6gPoQhs78Rh5CQKVKYwNRW_9yOdhehtsKEFwo/edit?usp=sharing){:target="_blank"}, make sure to use quotes from the TRAINING DATA tab! 
 
@@ -104,13 +104,13 @@ To see how successful your model is at classifying heroes and villains, test you
 Click the **Test** button to test your model. Your model will predict whether the text you entered is heroic or villainous and will tell you the level of confidence the model has in that prediction.
 
 ![](images/test_text.png)
-In this example, the model is only 19% certain the quote from the Wizard of Oz is spoken by a hero. (It is - Dorothy says it!) 19% is not a very good confidence score; most commercial classification applications need to operate at around 95-99% confidence!
+In this example, the model is only 19% certain the quote from the Wizard of Oz is spoken by a hero (it is — Dorothy says it!). 19% is not a very good confidence score; most commercial classification applications need to operate at around 95–99% confidence!
 
 --- /task ---
 
 --- task ---
 
-Once you have tested a few different quotes, think about these important things:
+Once you have tested a few different quotes, think about these important things and add your answers to your Blueprint:
 
 1. Describe the results of your testing. How accurate was the model? 
 2. Why do you think the prediction is sometimes wrong?
