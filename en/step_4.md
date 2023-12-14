@@ -43,7 +43,7 @@ The new grey blocks you can see in that menu allow you to access your machine le
 
 --- collapse ---
 ---
-title: Pro tip - Save your work!
+title: Pro tip: Save your work!
 ---
 
 This special version of Scratch allows you to access your machine learning model, **but** if you try to open your project in another version of Scratch online **it won’t work**.
@@ -62,7 +62,7 @@ Save your work as often as you can to make sure you don’t lose any progress!
 
 --- task ---
 
-Add a `when green flag clicked`{:class="block3events"} block to your workspace. This is the script that will run the first time we start the project. 
+Add a `when green flag clicked`{:class="block3events"} block to your workspace. This is the script that will run the first time you start the project. 
 
 ```blocks3
 when green flag clicked
@@ -70,7 +70,7 @@ when green flag clicked
 
 --- /task ---
 
-The next thing you want your application to do is ask the user to input some text - this is the text that will be compared by the model and classfied as `hero` or `villain`.
+The next thing you want your application to do is ask the user to input some text — this is the text that will be compared by the model and classified as `hero` or `villain`.
 
 --- task ---
 
@@ -151,7 +151,7 @@ say (join (join [apple] [banana]) ((join [apple] [banana])))
 
 --- task ---
 
-Into the first space that says `apple`, type `I am ` 
+Into the first space that says `apple`, type `I am `. 
 Make sure you include a space at the end!
 
 ```blocks3
@@ -174,7 +174,7 @@ say (join (join [I am ] (recognise text [text] confidence :: #4b4c60)) (join [ap
 
 --- task ---
 
-Into the next (third) space, which still says `apple`, type `% sure you are a ` 
+Into the next (third) space, which still says `apple`, type `% sure you are a `. 
 Make sure you include a space at the end!
 
 ```blocks3
