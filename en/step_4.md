@@ -10,7 +10,7 @@ Your model is trained, tested, and ready to use, but to do that you need to crea
 </div>
 
 
-### **Your project will:**
+### Your project will:
 + Take text input from the user
 + Use your trained ML model to classify text
 + Tell the user whether the input is from a 'hero' or 'villain'
