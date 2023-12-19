@@ -1,4 +1,3 @@
-
 ## Make a Scratch application to classify quotes
 
 <div style="display: flex; flex-wrap: wrap">
@@ -11,7 +10,7 @@ Your model is trained, tested, and ready to use, but to do that you need to crea
 </div>
 
 
-### **Your project will:**
+### Your project will:
 + Take text input from the user
 + Use your trained ML model to classify text
 + Tell the user whether the input is from a 'hero' or 'villain'
@@ -43,7 +42,7 @@ The new grey blocks you can see in that menu allow you to access your machine le
 
 --- collapse ---
 ---
-title: Pro tip: Save your work!
+title: Pro tip - Save your work!
 ---
 
 This special version of Scratch allows you to access your machine learning model, **but** if you try to open your project in another version of Scratch online **it won’t work**.
