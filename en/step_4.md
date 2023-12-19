@@ -1,4 +1,3 @@
-
 ## Make a Scratch application to classify quotes
 
 <div style="display: flex; flex-wrap: wrap">
